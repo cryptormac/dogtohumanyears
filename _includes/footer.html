@@ -1,0 +1,20 @@
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>@2019 Copyright</p>
+  </div>
+</footer>
+<script>window.jQuery || document.write('<script src="/assets/js/jquery.slim.min.js"><\/script>')</script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+$(function() {
+
+  $("#inputGroupSelect04").change(function(){
+      var answer = $('#inputGroupSelect04 option:selected').val()
+      $("#keyPress").text(answer + " human years");
+  });
+
+});
+  </script>
